@@ -1,0 +1,51 @@
+\documentclass[a4paper,man,natbib]{apa6}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{here} 
+\usepackage{float}
+\restylefloat{figure}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[hyphens]{url}
+\usepackage{setspace}
+\usepackage{textcomp}
+\setstretch{1.5}
+
+%-----------------------Tabellen-----------------------------------
+\usepackage{tabularx}                          %Tabellenspalten zusammenlegen
+\usepackage{multirow}                          %Tabellezeilen zusammenlegen
+\usepackage{booktabs}                                   %schöne Tabellen
+\usepackage{longtable}                        %mehrseitige Tabellen
+\usepackage{rotating}                           %vertikale Tabellenspaltenausrichtung
+\usepackage{array}                                          %andere Tabellenspaltenausrichtung
+\usepackage{paralist}
+\usepackage{colortbl} % Paket für die Farbe
+\usepackage{xcolor} % Paket für farbige Texte
+\usepackage{epigraph}
+
+\title{Mitarbeitermotivation fördern / Personelle Anreizsysteme}
+\shorttitle{Mitarbeitermotivation fördern}
+\author{Carsten Meiser und Andreas Schillinger}
+\affiliation{Hochschule Karlsruhe für Technik und Wirtschaft}
+
+% \abstract{Your abstract here.}
+
+\hyphenation{Geschäfts-modell Marken-bekanntheit Werbe-botschaft}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\input{chapters/motivation.tex}
+\input{chapters/EinordnungundDefinition.tex}
+\input{chapters/EMarkenaufbau}
+\input{chapters/zalando.tex}
+\input{chapters/fazit.tex}
+
+
+\bibliography{bibliography}
+
+\end{document}
