@@ -1,0 +1,53 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+Inhalt...
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[!ht]
+\caption{Hauptkategorien der Evaluationskriterien}
+\label{Hauptkategorien1}
+\begin{tabularx}{\textwidth}[b]{|p{5mm} p{40mm}|X|}
+\hline
+\rowcolor{black!10} \multicolumn{2}{|l|}{\normalsize\textbf{Kategorie}}  & \normalsize\textbf{Beschreibung}  \tabularnewline
+\hline
+1 & \raggedright\textit{Modellierung} & Unter dem Aspekt Modellierung werden alle Funktionalitaeten zusammen gefasst, die den Benutzer dabei unterstuetzen, Prozessmodelle zu erstellen und zu beschreiben. \tabularnewline
+\hline
+2 & \raggedright\textit{Implementierung} & Umfasst alle Funktionalitaeten, welche den Nutzer bei der Umsetzung der Automatisierung eines Prozesses unterstuetzen.  \tabularnewline
+\hline
+3 & \raggedright\textit{Prozessausfuehrung} & Beinhaltet alle den Nutzer waehrend der Ausfuehrung eines Prozesses direkt unterstuetzenden Funktionalitaeten. \tabularnewline
+\hline
+4 & \raggedright\textit{Steuerung und Ueberwachung} & Fasst alle Funktionalitaeten zusammen, welche dem Benutzer eine Uebersicht und Steuerungsmoeglichkeiten ueber Prozesse und System zur Laufzeit ermoeglichen. \tabularnewline
+\hline
+5 & \raggedright\textit{Analyse} & Buendelt die Funktionalitaeten, die den Benutzer bei der Analyse von Prozessen und deren Performance unterstuetzen. \tabularnewline
+\hline
+6 & \raggedright\textit{Allgemeine Software Anforderungen} & Umfasst die Kriterien, welche fuer komplexe Unternehmenssoftware im Allgemeinen gueltig sind. \tabularnewline
+\hline
+\end{tabularx}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+\begin{tabularx}{\textwidth}{XXX}
+\hline
+
+Deutscher Name (wissensch. Name)              & Strukturen                                    & Funktion                                                                             \\ \hline
+Nachhirn                                      & Verlaengertes Rueckenmark (Medulla oblongata) & Vegetatives (unbewusstes) Steuerzentrum (Atmung, Kreislauf, Verdauung, Reflexe, ...) \\ \hline
+                                              & Kleinhirn (Cerebellum)                        & Gleichgewicht, unbewusstes Feintuning von Bewegungen                                 \\ \cline{2-3}
+\multirow{-2}{*}{Hinterhirn (Myelencephalon)} & Bruecke (Pons)                                & Nervenfasern, die zum Kleinhirn ziehen                                               \\ \hline
+Mittelhirn (Mesencephalon)                    & Kerne von Hirnnerven und Neurotransmittern    & Bildung zahlreicher Neurotransmitter, Steuerung der Augenbewegungen                  \\ \hline
+Zwischenhirn (Diencephalon)                   & Thalamus                                      & Schaltstelle fast aller Nervenfasern, die zur Grosshirnrinde ziehen                   \\ \cline{2-3}
+                                              & Hypothalamus                                  & Steuerung des Hormonhaushaltes                                                       \\ \hline
+Gross-/Endhirn (Telencephalon)                 & Grosshirnrinde (Cortex)                        & siehe 2.4                                                                            \\ \cline{2-3}
+                                              & Basalganglien                                 & unbewusste Steuerung von Bewegungen                                                  \\ \cline{2-3}
+                                              & Innere Kapsel                                 & Ansammlung von Nervenfasern, die zur Grosshirnrinde ziehen                            \\ \cline{2-3}
+                                              & Balken                                        & Faserbuendel, das die beiden Grosshirnhaelften verbindet                              \\ \hline
+\end{tabularx}
+\end{table*}
+\efloatseparator
+ 

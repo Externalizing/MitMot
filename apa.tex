@@ -1,4 +1,4 @@
-\documentclass[a4paper,man,natbib]{apa6}
+\documentclass[a4paper,man,natbib,donotrepeattitle]{apa6}
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
@@ -11,6 +11,8 @@
 \usepackage[hyphens]{url}
 \usepackage{setspace}
 \usepackage{textcomp}
+\usepackage{microtype}
+\usepackage{ragged2e}
 \setstretch{1.5}
 
 %-----------------------Tabellen-----------------------------------
@@ -30,15 +32,20 @@
 \author{Carsten Meiser und Andreas Schillinger}
 \affiliation{Hochschule Karlsruhe für Technik und Wirtschaft}
 
-% \abstract{Your abstract here.}
+\abstract{habstract-texti}
+
 
 \hyphenation{Geschäfts-modell Marken-bekanntheit Werbe-botschaft}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 
 \begin{document}
 \maketitle
+\newpage
 \tableofcontents
 \newpage
 
+\justifying
 \input{chapters/motivation.tex}
 \input{chapters/EinordnungundDefinition.tex}
 \input{chapters/EMarkenaufbau}
