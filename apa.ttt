@@ -1,5 +1,26 @@
 \begin{table*}[hbt]
 \ifnextchar[{\eatarg}{}
+[!h]
+\begin{tabularx}{\textwidth}{XXX}
+\hline\hline
+
+Deutscher Name \newline(wissensch. Name)\newline              & Strukturen                                    & Funktion                                                                             \\ \hline
+Nachhirn                                      & Verlaengertes Rueckenmark (Medulla oblongata) & Vegetatives (unbewusstes) Steuerzentrum (Atmung, Kreislauf, Verdauung, Reflexe, ...) \\ \hline
+Hinterhirn \newline(Myelencephalon)               & Kleinhirn (Cerebellum)                        & Gleichgewicht, unbewusstes Feintuning von Bewegungen                                 \\ \cline{2-3}
+                                          & Bruecke (Pons)                                & Nervenfasern, die zum Kleinhirn ziehen                                               \\ \hline
+Mittelhirn \newline(Mesencephalon)                    & Kerne von Hirnnerven und Neurotransmittern    & Bildung zahlreicher Neurotransmitter, Steuerung der Augenbewegungen                  \\ \hline
+Zwischenhirn \newline(Diencephalon)                   & Thalamus                                      & Schaltstelle fast aller Nervenfasern, die zur Grosshirnrinde ziehen                   \\ \cline{2-3}
+                                              & Hypothalamus                                  & Steuerung des Hormonhaushaltes                                                       \\ \hline
+Gross-/Endhirn \newline(Telencephalon)                 & Grosshirnrinde (Cortex)                        & siehe 2.4                                                                            \\ \cline{2-3}
+                                              & Basalganglien                                 & unbewusste Steuerung von Bewegungen                                                  \\ \cline{2-3}
+                                              & Innere Kapsel                                 & Ansammlung von Nervenfasern, die zur Grosshirnrinde ziehen                            \\ \cline{2-3}
+                                              & Balken                                        & Faserbuendel, das die beiden Grosshirnhaelften verbindet                              \\ \hline\hline
+\end{tabularx}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
 
 Inhalt...
 \end{table*}
@@ -34,19 +55,19 @@ Inhalt...
 \ifnextchar[{\eatarg}{}
 [h]
 \begin{tabularx}{\textwidth}{XXX}
-\hline
+\hline\hline
 
-Deutscher Name (wissensch. Name)              & Strukturen                                    & Funktion                                                                             \\ \hline
+Deutscher Name \newline(wissensch. Name)\newline              & Strukturen                                    & Funktion                                                                             \\ \hline
 Nachhirn                                      & Verlaengertes Rueckenmark (Medulla oblongata) & Vegetatives (unbewusstes) Steuerzentrum (Atmung, Kreislauf, Verdauung, Reflexe, ...) \\ \hline
-                                              & Kleinhirn (Cerebellum)                        & Gleichgewicht, unbewusstes Feintuning von Bewegungen                                 \\ \cline{2-3}
-\multirow{-2}{*}{Hinterhirn (Myelencephalon)} & Bruecke (Pons)                                & Nervenfasern, die zum Kleinhirn ziehen                                               \\ \hline
-Mittelhirn (Mesencephalon)                    & Kerne von Hirnnerven und Neurotransmittern    & Bildung zahlreicher Neurotransmitter, Steuerung der Augenbewegungen                  \\ \hline
-Zwischenhirn (Diencephalon)                   & Thalamus                                      & Schaltstelle fast aller Nervenfasern, die zur Grosshirnrinde ziehen                   \\ \cline{2-3}
+Hinterhirn \newline(Myelencephalon)               & Kleinhirn (Cerebellum)                        & Gleichgewicht, unbewusstes Feintuning von Bewegungen                                 \\ \cline{2-3}
+                                          & Bruecke (Pons)                                & Nervenfasern, die zum Kleinhirn ziehen                                               \\ \hline
+Mittelhirn \newline(Mesencephalon)                    & Kerne von Hirnnerven und Neurotransmittern    & Bildung zahlreicher Neurotransmitter, Steuerung der Augenbewegungen                  \\ \hline
+Zwischenhirn \newline(Diencephalon)                   & Thalamus                                      & Schaltstelle fast aller Nervenfasern, die zur Grosshirnrinde ziehen                   \\ \cline{2-3}
                                               & Hypothalamus                                  & Steuerung des Hormonhaushaltes                                                       \\ \hline
-Gross-/Endhirn (Telencephalon)                 & Grosshirnrinde (Cortex)                        & siehe 2.4                                                                            \\ \cline{2-3}
+Gross-/Endhirn \newline(Telencephalon)                 & Grosshirnrinde (Cortex)                        & siehe 2.4                                                                            \\ \cline{2-3}
                                               & Basalganglien                                 & unbewusste Steuerung von Bewegungen                                                  \\ \cline{2-3}
                                               & Innere Kapsel                                 & Ansammlung von Nervenfasern, die zur Grosshirnrinde ziehen                            \\ \cline{2-3}
-                                              & Balken                                        & Faserbuendel, das die beiden Grosshirnhaelften verbindet                              \\ \hline
+                                              & Balken                                        & Faserbuendel, das die beiden Grosshirnhaelften verbindet                              \\ \hline\hline
 \end{tabularx}
 \end{table*}
 \efloatseparator
